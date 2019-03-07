@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<widget id="com.phonegap.katika"
+
+version="1.0.0" 
+xmlns="http://www.w3.org/ns/widgets" 
+
+versionCode = "1"
+
+xmlns:gap="http://phonegap.com/ns/1.0">
+  
+
+<name>katika</name>
+    
+
+<description>Katika</description>
+  
+
+<author  email="veter_peremen_i@mail.ru" href="http://phonegap.com">
+        Franck Mekoudja   </author>
+ 
+ <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="14" />
+
+	<content src="index.html" />
+	<access origin="*" />
+	<allow-intent href="http://*/*" />
+<allow-intent href="https://*/*" />
+<allow-intent href="geo:*" />
+<plugin name="cordova-plugin-geolocation" spec="2.1.0"  />
+<plugin name="cordova-plugin-whitelist" spec="1.1.0" />
+
+
+
+
+
+</widget>
